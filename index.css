@@ -18,6 +18,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background: rgb(109,58,180);     
+    background: radial-gradient(circle, rgba(109,58,180,1) 0%, rgba(29,253,205,1) 50%, rgba(170,69,252,0.9) 100%);
     
 }
 section {
@@ -53,7 +55,9 @@ label {
 }
 
 textarea {
-    padding: .3rem .6rem; 
+    padding: .3rem .6rem;
+    background: rgb(109,58,180);     
+    background: radial-gradient(circle, rgba(109,58,180,1) 0%, rgba(29,253,205,1) 50%, rgba(170,69,252,0.9) 100%);
 }
 
 textarea:hover {
